@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JasaWeb.ID - Jasa Pembuatan Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">JasaWeb</div>
+            <ul class="navbar-menu" id="navbar-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Layanan</a></li>
+                <li><a href="#portfolio">Portofolio</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Selamat Datang di JasaWeb</h1>
+            <p>Kami spesialis jasa pembuatan website profesional untuk bisnis Anda.</p>
+            <a href="#contact" class="btn">Hubungi Kami</a>
+        </div>
+    </section>
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Layanan Kami</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Website Statis</h3>
+                    <p>Website sederhana untuk informasi dasar, cepat dan murah.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Website Dinamis</h3>
+                    <p>Website interaktif dengan database dan fitur canggih.</p>
+                </div>
+                <div class="service-card">
+                    <h3>E-commerce</h3>
+                    <p>Toko online lengkap dengan sistem pembayaran.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2>Portofolio</h2>
+            <div class="portfolio-slider">
+                <div class="slider" id="slider">
+                    <div class="slide" style="background-image: url(Screenshot\ 2026-02-08\ 224654.png);"></div>
+                    <div class="slide" style="background-image: url(Screenshot\ 2026-02-08\ 231955.png);"></div>
+                    <div class="slide" style="background-image: url(Screenshot\ 2026-02-08\ 233103.png);"></div>
+                </div>
+                <div class="dots" id="dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Kontak Kami</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Nama Anda" required>
+                <input type="email" name="email" placeholder="Email Anda" required>
+                <textarea name="message" placeholder="Pesan Anda" rows="5" required></textarea>
+                <button type="submit" class="btn">Kirim</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2026 JasaWeb.ID Semua hak dilindungi.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
